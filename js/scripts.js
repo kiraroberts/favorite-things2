@@ -12,10 +12,10 @@ $(document).ready(function() {
 
   var arr2 = [];
   arr2.push(favorites[0], favorites[1], favorites[2], favorites[3]);
-  $(".color").text(arr2[0]);
-  $(".person").text(arr2[1]);
-  $(".animal").text(arr2[2]);
-  $(".song").text(arr2[3]);
+  $(".color").text("Your favorite color is " + arr2[0] + ".");
+  $(".person").text("Your favorite person is " + arr2[1] + ".");
+  $(".animal").text("Your favorite animal is " + arr2[2] + ".");
+  $(".song").text("Your favorite song is " + arr2[3] + ".");
 
 
     event.preventDefault();
